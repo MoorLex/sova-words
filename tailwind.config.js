@@ -1,4 +1,3 @@
-const typography = require('@tailwindcss/typography')
 const paddingSafe = require('@la-moore/shared/scripts/tailwindcss-padding-safe')
 
 module.exports = {
@@ -17,7 +16,6 @@ module.exports = {
     borderRadius: ['responsive', 'first', 'last'],
   },
   plugins: [
-    typography,
     paddingSafe()
   ],
 }
