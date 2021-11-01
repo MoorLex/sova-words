@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed inset-0">
+  <div class="fixed inset-0 dark:bg-gray-800">
     <div class="absolute inset-0 bg-center bg-contain bg-no-repeat"
          :style="{ backgroundImage: `url(/scenes/${id}/background.svg)`, backgroundColor: selectedGame.background }" />
     <canvas ref="canvas"

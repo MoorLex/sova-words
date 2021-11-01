@@ -1,5 +1,4 @@
-import { reactive, readonly, toRef, watch } from 'vue'
-import { useLocale } from '/-/plugins/locale'
+import { reactive, readonly, toRef } from 'vue'
 
 interface stateInterface {
   menu: {
@@ -10,56 +9,10 @@ interface stateInterface {
   isMenuVisible: boolean
 }
 
-const { lang, getLocal } = useLocale()
-
 const state: stateInterface = reactive({
   menu: [],
   isMenuVisible: false,
 })
-
-watch(lang, () => init())
-
-init()
-
-function init() {
-  state.menu = [
-    {
-      label: getLocal('core.home'),
-      route: 'home',
-      extend: false
-    },
-    {
-      label: getLocal('core.contacts'),
-      route: 'contacts-list',
-      extend: false
-    },
-    {
-      label: getLocal('core.schedules'),
-      route: 'schedules-list',
-      extend: false
-    },
-    {
-      label: getLocal('core.services'),
-      route: 'services-list',
-      extend: true
-    },
-    {
-      label: getLocal('core.articles'),
-      route: 'articles-list',
-      extend: true
-    },
-    {
-      label: getLocal('core.products'),
-      route: 'products-list',
-      extend: true
-    },
-    {
-      label: getLocal('core.albums'),
-      route: 'albums-list',
-      extend: true
-    },
-  ]
-}
 
 function hideMenu() {
   state.isMenuVisible = false

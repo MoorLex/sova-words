@@ -17,7 +17,7 @@ const state: stateInterface = reactive({
     {
       id: 1,
       name: 'Для начала',
-      description: 'Найдите всего 5 слов',
+      description: '3 буквы',
       color: '#18686b',
       contrast: '#D78095',
       background: '#121529',
@@ -25,8 +25,8 @@ const state: stateInterface = reactive({
     },
     {
       id: 2,
-      name: 'Для начала',
-      description: 'Найдите всего 5 слов',
+      name: 'Довольно просто',
+      description: '4 буквы',
       color: '#763D14',
       contrast: '#A2C62A',
       background: '#070F0C',
@@ -34,8 +34,8 @@ const state: stateInterface = reactive({
     },
     {
       id: 3,
-      name: 'Для начала',
-      description: 'Найдите всего 5 слов',
+      name: 'Ух, как сложно',
+      description: '5 букв',
       color: '#2D7779',
       contrast: '#EBF6FA',
       background: '#041112',
@@ -43,8 +43,8 @@ const state: stateInterface = reactive({
     },
     {
       id: 4,
-      name: 'Для начала',
-      description: 'Найдите всего 5 слов',
+      name: 'Действительно сложно',
+      description: '6 букв',
       color: '#45595F',
       contrast: '#98AD9E',
       background: '#0D0607',
@@ -52,8 +52,8 @@ const state: stateInterface = reactive({
     },
     {
       id: 5,
-      name: 'Для начала',
-      description: 'Найдите всего 5 слов',
+      name: 'Невозможно',
+      description: '7 букв',
       color: '#7E4C12',
       contrast: '#FAC119',
       background: '#110C07',

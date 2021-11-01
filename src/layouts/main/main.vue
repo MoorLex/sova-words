@@ -12,19 +12,6 @@
     <div class="bg-gray-100 flex-1 border-t relative dark:border-gray-600 dark:bg-gray-800">
       <RouterView />
     </div>
-    <!--    <div class="bg-white sticky bottom-0 border-t">-->
-    <!--      <div class="h-14 pb-safe max-w-screen-sm w-full mx-auto flex items-center justify-center">-->
-    <!--        <div class="flex-1 flex flex-col items-center justify-center">-->
-    <!--          <BaseIcon name="outline/home" />-->
-    <!--        </div>-->
-    <!--        <div class="flex-1 flex flex-col items-center justify-center">-->
-    <!--          <BaseIcon name="outline/home" />-->
-    <!--        </div>-->
-    <!--        <div class="flex-1 flex flex-col items-center justify-center">-->
-    <!--          <BaseIcon name="outline/home" />-->
-    <!--        </div>-->
-    <!--      </div>-->
-    <!--    </div>-->
   </div>
 </template>
 

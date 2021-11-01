@@ -1,14 +1,9 @@
-import { h, resolveComponent } from 'vue'
 import { RouteRecordRaw } from 'vue-router'
 
 interface RouterProps {
   params: {
     id: string
   }
-}
-
-const emptyRouteComponent = {
-  render: () => h(resolveComponent('router-view')),
 }
 
 export default [
