@@ -3,6 +3,31 @@
 </div>
 
 # Сова - игра в слова
+[sova](https://sova.la-moore.ru/)
+
+<div align="center">
+  <img width="100%" src="https://github.com/la-moore/sova-words/raw/master/public/Desktop%20-%2028.png">
+</div>
+
+<div align="center">
+  <img width="100%" src="https://github.com/la-moore/sova-words/raw/master/public/Desktop%20-%2029.png">
+</div>
+
+<div align="center">
+  <img width="100%" src="https://github.com/la-moore/sova-words/raw/master/public/Desktop%20-%2030.png">
+</div>
+
+<div align="center">
+  <img width="100%" src="https://github.com/la-moore/sova-words/raw/master/public/Desktop%20-%2031.png">
+</div>
+
+<div align="center">
+  <img width="100%" src="https://github.com/la-moore/sova-words/raw/master/public/Desktop%20-%2033.png">
+</div>
+
+<div align="center">
+  <img width="100%" src="https://github.com/la-moore/sova-words/raw/master/public/Desktop%20-%2032.png">
+</div>
 
 ### How to install
 
